@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "create npm package for natour",
+  "homepage": "https://github.com/Hamid-Khanbeyki/Advanced-CSS-Natours-Project#readme",
+  "bugs": {
+    "url": "https://github.com/Hamid-Khanbeyki/Advanced-CSS-Natours-Project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hamid-Khanbeyki/Advanced-CSS-Natours-Project.git"
+  },
+  "license": "ISC",
+  "author": "Hamid",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass sass/main.scss css/style.css -w"
+  },
+  "devDependencies": {
+    "sass": "^1.92.1"
+  }
+}
