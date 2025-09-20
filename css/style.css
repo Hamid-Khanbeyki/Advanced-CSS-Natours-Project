@@ -100,6 +100,13 @@ body {
   text-transform: uppercase;
 }
 
+.paragraph {
+  font-size: 1.6rem;
+}
+.paragraph:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
 .u-center-text {
   text-align: center;
 }
