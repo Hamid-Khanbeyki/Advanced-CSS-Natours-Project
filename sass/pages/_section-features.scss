@@ -1,0 +1,50 @@
+@use "../abstracts" as *;
+
+.section-features {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url(../img/nat-4.jpg);
+  padding: 20rem 0;
+  margin-top: -10rem;
+  transform: skewY(-7deg);
+
+  & > * {
+    transform: skewY(7deg);
+  }
+}
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto;
+
+  .feature-box {
+    background-color: rgba($color-white, 0.8);
+    text-align: center;
+    padding: 2rem;
+    transition: transform 0.2s;
+
+    &__icon {
+      display: inline-block;
+      font-size: 6rem;
+      background-image: linear-gradient(
+        to right,
+        $color-primary-light,
+        $color-primary-dark
+      );
+      -webkit-background-clip: text;
+      color: transparent;
+      margin-bottom: 0.5rem;
+    }
+
+    &__text {
+      margin-bottom: 1.5rem;
+    }
+
+    &:hover {
+      transform: translateY(-1.5rem) scale(1.03);
+    }
+  }
+}
