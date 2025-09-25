@@ -246,6 +246,11 @@ body {
   transform: scale(1.03) translateY(-1.5rem);
 }
 
+.card {
+  background-color: orangered;
+  height: 50rem;
+}
+
 .row {
   max-width: 114rem;
   margin: 0 auto;
