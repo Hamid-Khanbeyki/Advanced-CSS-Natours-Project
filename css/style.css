@@ -248,6 +248,7 @@ body {
 
 .card {
   perspective: 150rem;
+  -moz-perspective: 150rem;
   background-color: orangered;
   height: 50rem;
   transition: all 0.8s;
