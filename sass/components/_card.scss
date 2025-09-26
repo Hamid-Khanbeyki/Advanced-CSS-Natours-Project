@@ -3,12 +3,16 @@
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
+  position: relative;
 
   &__side {
+    color: #fff;
     height: 50rem;
     font-size: 2.5rem;
     transition: all 0.8s;
-    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
 
     &--front {
       background-color: $color-white;
