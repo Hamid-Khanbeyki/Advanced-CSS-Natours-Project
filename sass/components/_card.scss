@@ -1,3 +1,5 @@
+@use "../abstracts" as *;
+
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
@@ -7,10 +9,22 @@
     font-size: 2.5rem;
     transition: all 0.8s;
     color: #fff;
-    background-color: green;
+
+    &--front {
+      background-color: $color-white;
+    }
+
+    &--back {
+      background-color: green;
+      transform: rotateY(180deg);
+    }
   }
 
-  &:hover &__side {
+  &:hover &__side--front {
     transform: rotateY(180deg);
+  }
+
+  &:hover &__side--back {
+    transform: rotateY(0);
   }
 }
