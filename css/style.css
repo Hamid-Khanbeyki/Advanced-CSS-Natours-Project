@@ -261,6 +261,7 @@ body {
   left: 0;
   width: 100%;
   backface-visibility: hidden;
+  border-radius: 3px;
 }
 .card__side--front {
   background-color: #fff;
