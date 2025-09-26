@@ -250,6 +250,7 @@ body {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
+  height: 50rem;
 }
 .card__side {
   color: gray;
