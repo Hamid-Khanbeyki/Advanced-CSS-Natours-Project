@@ -285,7 +285,7 @@ body {
   height: 23rem;
 }
 .card__picture--1 {
-  background-image: url(../img/nat-5.jpg);
+  background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/nat-5.jpg);
 }
 
 .row {
