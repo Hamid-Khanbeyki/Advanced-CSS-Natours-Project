@@ -336,6 +336,10 @@ body {
   color: #fff;
   margin-bottom: 8rem;
 }
+.card__price-only {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
 
 .row {
   max-width: 114rem;
