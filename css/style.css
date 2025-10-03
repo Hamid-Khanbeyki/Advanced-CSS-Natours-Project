@@ -384,6 +384,9 @@ body {
   -webkit-clip-path: circle(50% at 50% 50%);
   clip-path: circle(50% at 50% 50%);
 }
+.story__img {
+  height: 100%;
+}
 
 .row {
   max-width: 114rem;
