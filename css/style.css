@@ -324,6 +324,14 @@ body {
 .card__details ul li:not(:last-child) {
   border-bottom: 1px solid #eee;
 }
+.card__cta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: center;
+}
 
 .row {
   max-width: 114rem;
