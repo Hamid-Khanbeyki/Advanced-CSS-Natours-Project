@@ -332,6 +332,10 @@ body {
   width: 80%;
   text-align: center;
 }
+.card__price-box {
+  color: #fff;
+  margin-bottom: 8rem;
+}
 
 .row {
   max-width: 114rem;
