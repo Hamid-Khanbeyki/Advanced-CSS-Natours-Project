@@ -340,6 +340,10 @@ body {
   font-size: 1.5rem;
   text-transform: uppercase;
 }
+.card__price-value {
+  font-size: 6rem;
+  font-weight: 100;
+}
 
 .row {
   max-width: 114rem;
