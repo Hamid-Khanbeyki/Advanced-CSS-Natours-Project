@@ -379,7 +379,6 @@ body {
   height: 15rem;
   float: left;
   transform: translateX(-3rem) skewX(12deg);
-  background-color: orangered;
   -webkit-shape-outside: circle(50% at 50% 50%);
   shape-outside: circle(50% at 50% 50%);
   -webkit-clip-path: circle(50% at 50% 50%);
@@ -388,6 +387,8 @@ body {
 }
 .story__img {
   height: 100%;
+  transform: translateX(-4rem);
+  backface-visibility: hidden;
 }
 .story__text {
   transform: skewX(12deg);
