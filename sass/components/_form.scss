@@ -52,4 +52,9 @@
     width: 49%;
     display: inline-block;
   }
+
+  &__radio-label {
+    font-size: $default-font-size;
+    cursor: pointer;
+  }
 }
