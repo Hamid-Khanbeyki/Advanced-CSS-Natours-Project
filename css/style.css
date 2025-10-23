@@ -407,6 +407,7 @@ body {
   border: none;
   border-bottom: 3px solid transparent;
   width: 90%;
+  transition: all 0.3s;
   display: block;
 }
 .form__input:focus {
