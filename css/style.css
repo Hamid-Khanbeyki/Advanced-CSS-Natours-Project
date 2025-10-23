@@ -434,6 +434,10 @@ body {
   visibility: hidden;
   transform: translateY(-4rem);
 }
+.form__radio-group {
+  width: 49%;
+  display: inline-block;
+}
 
 .story {
   width: 75%;
