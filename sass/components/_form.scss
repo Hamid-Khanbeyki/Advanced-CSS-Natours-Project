@@ -85,4 +85,8 @@
       transition: opacity 0.2s;
     }
   }
+
+  &__radio-input:checked ~ &__radio-label &__radio-button::after {
+    opacity: 1;
+  }
 }
