@@ -48,6 +48,10 @@
     transform: translateY(-4rem);
   }
 
+  &__radio-input {
+    display: none;
+  }
+
   &__radio-group {
     width: 49%;
     display: inline-block;
