@@ -645,6 +645,16 @@ body {
   text-align: center;
 }
 
+.navigation__button {
+  background-color: #fff;
+  width: 7rem;
+  height: 7rem;
+  position: fixed;
+  top: 6rem;
+  right: 6rem;
+  border-radius: 50%;
+  z-index: 2000;
+}
 .navigation__background {
   width: 6rem;
   height: 6rem;
