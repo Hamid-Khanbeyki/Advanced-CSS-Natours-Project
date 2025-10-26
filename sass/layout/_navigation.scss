@@ -1,1 +1,17 @@
 @use "../abstracts" as *;
+
+.navigation {
+  &__background {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    position: fixed;
+    top: 6.5rem;
+    right: 6.5rem;
+    z-index: 1000; // IT JUST WORKS FOR FIXED POSITIONS
+    background-image: radial-gradient(
+      $color-primary-light,
+      $color-primary-dark
+    );
+  }
+}
