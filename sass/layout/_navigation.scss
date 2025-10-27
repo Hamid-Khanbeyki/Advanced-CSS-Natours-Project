@@ -20,6 +20,7 @@
     top: 6.5rem;
     right: 6.5rem;
     z-index: 1000; // IT JUST WORKS FOR FIXED POSITIONS
+    transform: scale(80);
     background-image: radial-gradient(
       $color-primary-light,
       $color-primary-dark
@@ -33,5 +34,14 @@
     top: 0;
     right: 0;
     z-index: 1500;
+  }
+
+  &__list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    list-style: none;
   }
 }
