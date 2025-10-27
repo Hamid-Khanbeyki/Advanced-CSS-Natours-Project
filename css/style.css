@@ -713,6 +713,13 @@ body {
   display: inline-block;
   margin-right: 1.5rem;
 }
+.navigation__checkbox:checked ~ .navigation__background {
+  transform: scale(80);
+}
+.navigation__checkbox:checked ~ .navigation__nav {
+  opacity: 1;
+  width: 100%;
+}
 
 .section-about {
   background-color: #f7f7f7;
