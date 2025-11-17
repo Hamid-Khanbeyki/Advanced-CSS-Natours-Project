@@ -229,61 +229,6 @@ body {
   transform: translateY(0);
 }
 
-.composition {
-  position: relative;
-}
-.composition__photo {
-  width: 55%;
-  position: absolute;
-  border-radius: 2px;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-  outline-offset: 2rem;
-  z-index: 1;
-  transition: all 0.2s;
-}
-.composition__photo--p1 {
-  left: 0;
-  top: -2rem;
-}
-.composition__photo--p2 {
-  right: 0;
-  top: 2rem;
-}
-.composition__photo--p3 {
-  left: 20%;
-  top: 10rem;
-}
-.composition__photo:hover {
-  box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.4);
-  transform: scale(1.05) translateY(-0.5rem);
-  outline: 2rem solid #55c57a;
-  z-index: 2;
-}
-.composition:hover .composition__photo:not(:hover) {
-  transform: scale(0.95);
-}
-
-.feature-box {
-  background-color: rgba(255, 255, 255, 0.8);
-  font-size: 1.5rem;
-  padding: 2.5rem;
-  text-align: center;
-  border-radius: 3px;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-  transition: transform 0.2s;
-}
-.feature-box__icon {
-  display: inline-block;
-  font-size: 6rem;
-  margin-bottom: 0.5rem;
-  background-image: linear-gradient(to right, #7ed56f, #28b485);
-  -webkit-background-clip: text;
-  color: transparent;
-}
-.feature-box:hover {
-  transform: scale(1.03) translateY(-1.5rem);
-}
-
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
@@ -399,6 +344,61 @@ body {
 .card__price-value {
   font-size: 6rem;
   font-weight: 100;
+}
+
+.composition {
+  position: relative;
+}
+.composition__photo {
+  width: 55%;
+  position: absolute;
+  border-radius: 2px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+  outline-offset: 2rem;
+  z-index: 1;
+  transition: all 0.2s;
+}
+.composition__photo--p1 {
+  left: 0;
+  top: -2rem;
+}
+.composition__photo--p2 {
+  right: 0;
+  top: 2rem;
+}
+.composition__photo--p3 {
+  left: 20%;
+  top: 10rem;
+}
+.composition__photo:hover {
+  box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.4);
+  transform: scale(1.05) translateY(-0.5rem);
+  outline: 2rem solid #55c57a;
+  z-index: 2;
+}
+.composition:hover .composition__photo:not(:hover) {
+  transform: scale(0.95);
+}
+
+.feature-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s;
+}
+.feature-box__icon {
+  display: inline-block;
+  font-size: 6rem;
+  margin-bottom: 0.5rem;
+  background-image: linear-gradient(to right, #7ed56f, #28b485);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.feature-box:hover {
+  transform: scale(1.03) translateY(-1.5rem);
 }
 
 .form__group:not(:last-child) {
