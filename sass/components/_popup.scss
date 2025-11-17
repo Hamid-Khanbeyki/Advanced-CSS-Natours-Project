@@ -8,4 +8,13 @@
   top: 0;
   left: 0;
   z-index: 9999;
+
+  &__content {
+    @include absCenter;
+    width: 65%;
+    height: 50rem;
+    background-color: $color-white;
+    box-shadow: 0 2rem 4rem rgba($color-black, 0.2);
+    border-radius: 3px;
+  }
 }

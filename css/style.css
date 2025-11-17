@@ -491,6 +491,17 @@ body {
   left: 0;
   z-index: 9999;
 }
+.popup__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+  height: 50rem;
+  background-color: #fff;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
 
 .story {
   width: 75%;
