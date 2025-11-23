@@ -513,6 +513,10 @@ body {
   vertical-align: middle;
   padding: 3rem 5rem;
 }
+.popup__img {
+  width: 100%;
+  display: block;
+}
 
 .story {
   width: 75%;
