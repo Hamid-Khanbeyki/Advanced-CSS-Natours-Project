@@ -503,6 +503,10 @@ body {
   display: table;
   overflow: hidden;
 }
+.popup__left {
+  width: 33.333333%;
+  display: table-cell;
+}
 
 .story {
   width: 75%;
