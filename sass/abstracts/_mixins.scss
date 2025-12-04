@@ -57,4 +57,11 @@
       @content;
     }
   }
+
+  @if $breakpoint == tab-land {
+    //1200px
+    @media (max-width: 75em) {
+      @content;
+    }
+  }
 }
