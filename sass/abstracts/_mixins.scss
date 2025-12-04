@@ -44,4 +44,10 @@
 //Second metode
 
 @mixin respond($breakpoint) {
+  @if $breakpoint == big-desktop {
+    //+ 1800px
+    @media (min-width: 112.5em) {
+      @content;
+    }
+  }
 }
