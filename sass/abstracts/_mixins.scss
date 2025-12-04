@@ -12,3 +12,36 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+//  MEDIA QUERIY MANAGER //
+
+/* 
+
+0 - 600px: Phone
+600px - 900px: Tablet portraite
+600px - 1200px: Tablet landscape
+
+[1200px - 1800px] is where our normal styles apply
+
+1800px +: Big desktop
+
+*/
+
+// First metode
+// @mixin respond-phone {
+//   @media (max-width: 600px) {
+//     @content;
+//   }
+// }
+
+// /*
+// $breakpoint arguement choices:
+//   - phone
+//   - tab-port
+//   - tab-land
+//   - big-desktop
+
+//Second metode
+
+@mixin respond($breakpoint) {
+}
