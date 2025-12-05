@@ -19,34 +19,35 @@
 
 0 - 600px: Phone
 600px - 900px: Tablet portraite
-600px - 1200px: Tablet landscape
+900px - 1200px: Tablet landscape
 
 [1200px - 1800px] is where our normal styles apply
 
 1800px +: Big desktop
 
+
+
+ First metode
+ @mixin respond-phone {
+   @media (max-width: 600px) {
+     @content;
+   }
+ }
+
+
+ $breakpoint arguement choices:
+   - phone
+   - tab-port
+   - tab-land
+   - big-desktop
+
+ORDER: Base + typography > general layout + grid > page layout > components
 */
-
-// First metode
-// @mixin respond-phone {
-//   @media (max-width: 600px) {
-//     @content;
-//   }
-// }
-
-// /*
-// $breakpoint arguement choices:
-//   - phone
-//   - tab-port
-//   - tab-land
-//   - big-desktop
-
 //Second metode
 
 @mixin respond($breakpoint) {
-  @if $breakpoint == big-desktop {
-    //+ 1800px
-    @media (min-width: 112.5em) {
+  @if $breakpoint == phone {
+    @media (max-width: 37.5rem) {
       @content;
     }
   }
@@ -61,6 +62,13 @@
   @if $breakpoint == tab-land {
     //1200px
     @media (max-width: 75em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == big-desktop {
+    //+ 1800px
+    @media (min-width: 112.5em) {
       @content;
     }
   }
