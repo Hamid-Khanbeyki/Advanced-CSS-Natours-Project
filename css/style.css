@@ -702,6 +702,12 @@ body {
   border-top: 1px solid #777;
   padding-top: 2rem;
 }
+@media (max-width: 56.25em) {
+  .footer__navigation {
+    width: 100%;
+    text-align: center;
+  }
+}
 .footer__list {
   list-style: none;
 }
@@ -730,6 +736,13 @@ body {
   width: 80%;
   float: right;
 }
+@media (max-width: 56.25em) {
+  .footer__copyright {
+    width: 100%;
+    text-align: center;
+    float: none;
+  }
+}
 
 .row {
   max-width: 114rem;
@@ -746,6 +759,7 @@ body {
 @media (max-width: 56.25em) {
   .row {
     max-width: 50rem;
+    padding: 0 3rem;
   }
 }
 .row::after {
